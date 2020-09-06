@@ -1,10 +1,10 @@
 const Sequelize = require('sequelize');
 
 /**
- * company に対する接続設定を定義
+ * DB接続設定を定義
  */
 const dbConfig = new Sequelize(
-        'postgres',     //DB名
+        'postgres',      //DB名
         'postgres',      //ユーザー名
         'postgres',      //パスワード
         {               //オプション
